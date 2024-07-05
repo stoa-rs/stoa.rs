@@ -41,11 +41,11 @@ Add the following to your `Cargo.toml`:
 ```toml
 [dependencies]
 stoa_library = "0.1.0"
+```
 
+### Example Usage
 
-
-Example Usage
-
+```rust
 use stoa_library::portfolio::management::{Portfolio, Asset};
 use stoa_library::risk::management::{calculate_var, calculate_sharpe_ratio};
 use stoa_library::data::processing::{process_market_data, clean_data};
@@ -68,3 +68,4 @@ fn main() {
     let cleaned_data = clean_data(&processed_data);
     println!("Cleaned Data: {:?}", cleaned_data);
 }
+```
