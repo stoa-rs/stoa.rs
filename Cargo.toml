@@ -1,5 +1,5 @@
 [package]
-name = "stoa_library"
+name = "stoa"
 version = "0.1.0"
 authors = ["lucas.abbruzzini@proton.me"]
 edition = "2024"
