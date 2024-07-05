@@ -46,10 +46,10 @@ stoa_library = "0.1.0"
 ### Example Usage
 
 ```rust
-use stoa_library::portfolio::management::{Portfolio, Asset};
-use stoa_library::risk::management::{calculate_var, calculate_sharpe_ratio};
-use stoa_library::data::processing::{process_market_data, clean_data};
-use stoa_library::api::{get_portfolio_data, get_risk_metrics};
+use stoa::portfolio::management::{Portfolio, Asset};
+use stoa::risk::management::{calculate_var, calculate_sharpe_ratio};
+use stoa::data::processing::{process_market_data, clean_data};
+use stoa::api::{get_portfolio_data, get_risk_metrics};
 
 fn main() {
     let mut portfolio = Portfolio::new();
